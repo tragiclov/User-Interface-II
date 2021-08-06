@@ -1,1 +1,152 @@
 /* Add CSS styling here */
+/*CSS reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*header styles*/
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4f4f4f;
+    font-family: `Roboto Mono`, monospace;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*h1 styles*/
+h1{
+    font-size: 400%;
+    font-family: Impact;
+    background-image: url(https://images.unsplash.com/photo-1618416096379-fa1f3262a72c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHRhY29zfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    color: black;
+    padding: 200%;
+    margin: 0% 15%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+img{
+    width: 50%;
+}
+
+/*links styles*/
+.links{
+    margin: 1% 1% 1% 0;
+    display: flex;
+    justify-content: flex-end;
+}
+a{
+    border: 2px solid palevioletred;
+    border-radius: 15%;
+    padding: 1%;
+    margin-left: 3%;
+}
+.about{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    font-size: 300%;
+    margin-top: 10%;
+}
+.img0{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.imgs1{
+    margin: 10% 10% 0% 10%;
+}
+.imgs2{
+    margin: 10% 5% 0% 5%;
+}
+.imgs3{
+    margin: 10% 5% 0% 5%;
+}
+.imgs4{
+    margin: 10% 10% 0% 10%;
+}
+
+.img1{
+    width: 40%;
+    display: flex;
+    justify-items: ;
+}
+
+.imgs5{
+    margin: 10% 10% 0% 10%;
+}
+.imgs6{
+    margin: 10% 5% 0% 5%;
+}
+.imgs7{
+    margin: 10% 5% 0% 5%;
+}
+.imgs8{
+    margin: 10% 10% 0% 10%;
+    padding-right: 10%;
+}
+
+/*p styles*/
+.p1{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+.p2{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+/* Button Styles*/
+button{
+    width: 10%;
+    height: 10%;
+    text-align: center;
+    margin: 5% 47%;
+}
